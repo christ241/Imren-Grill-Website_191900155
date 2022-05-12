@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+menu {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+nav {
+  flex: 1;
+  text-align: right;
+  background: rgba(0, 0, 0, 0.2);
+}
+nav ul li {
+  overflow: auto;
+  display: inline-block;
+  list-style: none;
+  margin: 30px;
+  border-bottom: 2px solid darkslateblue;
+  padding-bottom: 3px;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: azure;
+}
+a:hover {
+  background-color: ghostwhite;
+  color: blue;
+}
+a:active {
+  background-color: ghostwhite;
+  color: cornflowerblue;
+  box-shadow: 2px 2px ghostwhite;
+}
